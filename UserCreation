@@ -13,5 +13,10 @@ echo "$username:$password" | sudo chpasswd
 
 else
 
+for((i=0;i<=2;i++)){
+    echo "Enter your choice:"
+    read choice
+}
+
 break 
 
